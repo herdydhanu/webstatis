@@ -31,6 +31,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .content .opening p {
@@ -54,6 +55,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .closing iframe {
