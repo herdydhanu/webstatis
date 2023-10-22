@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:aqua;
+}
+
+#judul {
+    background-color: rgb(116, 161, 206);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px dashed palevioletred;
+    ;
+    margin-bottom: 50px;
+}
+
+.media img {
+    height: 240px;
+    width: 360px;
+    /*untuk tengahin gambar*/
+    display: block;
+    margin: 0 auto;
+    /* ------------------- */
+}
+
+.content {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.content .opening p {
+    margin-bottom: 30px;
+}
+
+.content img {
+    width: 360px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content div h3,
+.content div p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.closing p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.closing iframe {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#form {
+    padding: 20px;
+    background-color: rgb(116, 161, 206);
+    color: aliceblue;
+    border: 3px solid palevioletred;
+  }
+
