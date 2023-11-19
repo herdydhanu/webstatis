@@ -1,0 +1,197 @@
+<html lang="en">
+  <!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haraskasshop</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--feather icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--My Style-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Rasa<span>Kopi</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-ekstra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i> </a>
+      </div>
+
+      <!-- search form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- search form end  -->
+    </nav>
+    <!--navbar end-->
+
+    <!--hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Inspirasi<span>Kopi</span></h1>
+        <p>
+          Bukan hanya soal rasa, isnpirasi bisa di dapat ketika kita meminum
+          kapi.
+        </p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--about section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentangkami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Alasan Memilih Produk Kami</h3>
+          <p>
+            Kami menggunakan biji kopi berkualitas terbaik dari perkebunan kopi
+            terbaik di Indonesia. Biji kopi tersebut diolah untuk menghasilkan
+            kopi dengan rasa yang nikmat dan khas.
+          </p>
+          <p>
+            Dengan biji kopi yang berkualitas, tetapi Kami menawarkan kopi
+            dengan harga yang terjangkau, sehingga Anda dapat menikmati kopi
+            berkualitas tinggi tanpa harus mengeluarkan biaya yang mahal.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!--menu section start-->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Kami menyediakan berbagai rasa kopi yang dapat anda pilih, berikut
+        daftar menu yang kami tawarkan:
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/gulaaren.jpeg" alt="gulaaren" class="menu-card-img" />
+          <h3 class="menu-card-title">~ Gula Aren ~</h3>
+          <p class="menu-card-price">
+            Perpaduan rasa nikmat kopi dan gula aren yang lezat. Nikmati kopi
+            gula aren setiap hari untuk memulai hari Anda dengan semangat
+          </p>
+          <p>16K</p>
+        </div>
+
+        <div class="menu-card">
+          <img
+            src="img/coffeelatte.jpeg"
+            alt="coffeelatte"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">~ Coffee Latte ~</h3>
+          <p class="menu-card-price">
+            Perpaduan sempurna antara kopi dan susu yang menggugah selera.
+            Nikmati kopi latte untuk momen spesial Anda.
+          </p>
+          <p>16K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/chocomilk.jpeg" alt="chocomilk" class="menu-card-img" />
+          <h3 class="menu-card-title">~ Choco Milk ~</h3>
+          <p class="menu-card-price">
+            Minuman yang menyegarkan untuk memulai aktivitas. Nikmati choco milk
+            dingin untuk mengembalikan energi Anda.
+          </p>
+          <p>16K</p>
+        </div>
+      </div>
+    </section>
+    <!--menu section end-->
+
+    <!-- contact start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Jika anda tertarik dengan Produk kami bisa langsung berkunjung ke tempat
+        kami dengan alamat sebagai berikut:
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63447.66925140035!2d106.8581459791016!3d-6.331890399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed369a6e2673%3A0xfd2160ed99355da2!2sRasa%20Kopi!5e0!3m2!1sid!2sid!4v1700305460880!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="tag"></i></a>
+        <a href="#"><i data-feather="shopping-bag"></i></a>
+        <a href="#"><i data-feather="globe"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">HerdyDhanuPermadi</a> | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--my javascript-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
