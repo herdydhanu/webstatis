@@ -1,0 +1,114 @@
+/* Style */
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333;
+  background-image: url(45degreee_fabric.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* CSS Box Model, CSS Outline, CSS Text, CSS Fonts,CSS Links, CSS List */
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+  outline-style: solid;
+  outline-color: salmon;
+}
+
+.header {
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.container .header ul {
+  margin-left: -40px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.hero {
+  height: 380px;
+  background-image: url(web-development.webp);
+  background-size: cover;
+  background-position: 0 -75px;
+  outline-style: solid;
+  outline-color: salmon;
+  outline-width: 3px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.content .penulis {
+  margin-top: -15px;
+  font-size: 16px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: salmon;
+}
+
+.content p {
+  text-align: justify;
+}
+
+/*CSS tabel */
+.tabelheading h2 {
+  padding: 15px;
+  margin-top: -20px;
+}
+
+.tabeljenis {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 780px;
+  height: 100px;
+  text-align: justify;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+td {
+  text-align: justify;
+  padding: 15px;
+}
+
+th {
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  text-align: center;
+}
+
+/*CSS Icon */
+.footer p {
+  color: salmon;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer .besar {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
